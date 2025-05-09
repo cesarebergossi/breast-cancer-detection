@@ -41,6 +41,18 @@ project_root/
 └── README.md                      # Project documentation
 ```
 
+## About the Data
+
+The dataset contains **780 grayscale ultrasound images** of breast tissue, originally collected at **Baheya Hospital** and published on [Kaggle](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset). Images are categorized into **normal**, **benign**, and **malignant** classes, but only the *benign* and *malignant* samples were used for classification.
+
+Key features:
+- Originally ~1100 images → reduced to 780 after preprocessing
+- Images cropped to focus on tumor regions
+- **Segmentation masks** are provided for benign and malignant cases, drawn manually by radiologists
+- Format: 2D grayscale images of varying resolution
+
+> **Note**: The dataset is not included in this repository. You can download it from the Kaggle source above and place it in the `data/` folder.
+
 ## Models & Techniques
 
 ### Classification

@@ -32,7 +32,6 @@ project_root/
 ├── Playground_classification_with_mask.ipynb  # Classification with ROI masks
 ├── Playground_segmentation.ipynb           # Segmentation pipeline
 ├── core/                          # Model and training logic
-├── data/                          # Dataset utilities or samples
 ├── saves/                         # Trained model weights
 ├── utils/                         # Helper functions
 ├── sample_image_benign.png        # Example input image
@@ -51,7 +50,7 @@ Key features:
 - **Segmentation masks** are provided for benign and malignant cases, drawn manually by radiologists
 - Format: 2D grayscale images of varying resolution
 
-> **Note**: The dataset is not included in this repository. You can download it from the Kaggle source above and place it in the `data/` folder.
+> **Note**: The dataset is not included in this repository. You can download it from the Kaggle source above and place it in a `data/` folder.
 
 ## Models & Techniques
 

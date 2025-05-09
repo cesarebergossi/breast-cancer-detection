@@ -2,13 +2,7 @@
 
 This repository contains a deep learning pipeline for detecting and segmenting breast cancer from ultrasound images. It was developed as a group project for the **Machine Learning and Artificial Intelligence** course at Bocconi University.
 
-## Team Members
-
-- Cesare Bergossi  
-- Riccardo Carollo
-- Emilija Milanovic
-- Elia Parolari
-- Giulia Pezzani
+**Authors**: Cesare Bergossi, Riccardo Carollo, Emilija Milanovic, Elia Parolari, Giulia Pezzani
 
 ## Project Overview
 
